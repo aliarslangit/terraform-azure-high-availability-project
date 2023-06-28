@@ -4,4 +4,5 @@ resource "azurerm_service_plan" "asp" {
   location            = var.location
   os_type             = var.os_type
   sku_name            = var.skusize
-}
+  }
+
