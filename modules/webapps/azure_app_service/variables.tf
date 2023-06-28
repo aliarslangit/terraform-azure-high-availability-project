@@ -1,16 +1,16 @@
 //------------------------------------General Properties------------------------------------\\
 variable "rgname" {
   type    = string
-  default = "Rg-git"
+  default = ""
 }
 
 variable "location" {
   type    = string
-  default = "West US"
+  default = ""
 }
 variable "appname" {
   type    = string
-  default = "Rg-git"
+  default = ""
 }
 
 variable "aspid" {

@@ -1,41 +1,41 @@
 //--------------------------------General Properties----------------\\
 variable "rgname" {
   type    = string
-  default = "RG-demo-SQL"
+  default = ""
 }
 variable "sqlservername" {
   type    = string
-  default = "demo-sql=100121"
+  default = ""
 }
 
 variable "location" {
   type    = string
-  default = "West US"
+  default = ""
 }
 //-----------------------------------SQL CONFIGURATIONS-------------------\\
 variable "username" {
   type    = string
-  default = "adminuser"
+  default = ""
 }
 variable "password" {
   type    = string
-  default = "M@gento12345"
+  default = ""
 }
 variable "dbname" {
   type    = string
-  default = "demosqldemodb"
+  default = ""
 }
 variable "dbsize" {
   type    = string
-  default = "10"
+  default = ""
 }
 variable "sku_name" {
   type    = string
-  default = "demosqldemodb"
+  default = ""
 }
 variable "db_version" {
   type    = string
-  default = "10"
+  default = ""
 }
 
 variable "firewallrules" {

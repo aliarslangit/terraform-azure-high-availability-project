@@ -1,24 +1,24 @@
 //------------------------------------General Properties------------------------------------\\
 variable "rgname" {
   type    = string
-  default = "Rg-git"
+  default = ""
 }
 
 variable "location" {
   type    = string
-  default = "West US"
+  default = ""
 }
 variable "aspname" {
   type    = string
-  default = "Rg-git"
+  default = ""
 }
 
 variable "skusize" {
   type    = string
-  default = "S1"
+  default = ""
 }
 
 variable "os_type" {
   type    = string
-  default = "linux"
+  default = ""
 }
