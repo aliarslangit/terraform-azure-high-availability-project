@@ -9,11 +9,19 @@ variable "name" {
 }
 
 //-----------------------------------TM CONFIGURATIONS-------------------\\
-variable "primary_endpoint_resource_id" {
+variable "primary_hostname" {
   type    = string
   default = ""
 }
-variable "secondary_endpoint_resource_id" {
+variable "secondary_hostname" {
+  type    = string
+  default = ""
+}
+variable "primary_location" {
+  type    = string
+  default = ""
+}
+variable "secondary_location" {
   type    = string
   default = ""
 }
