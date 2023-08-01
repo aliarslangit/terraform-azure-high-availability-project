@@ -16,8 +16,11 @@ your application will be able to survive a failure in one region, and users will
 2: Geo-Replication is enabled across primary and secondary sql databases <br>
 3: Traffic Manager is used to route traffic towards available region
 
-<a href="https://www.buymeacoffee.com/igorantun" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+---
 
+## Architecture Diagram
+
+![image](https://github.com/aliarslangit/terraform-azure-high-availability-project/blob/main/Active-Active-DR.png)
 ---
 
 ## Azure Services
