@@ -28,7 +28,7 @@ your application will be able to survive a failure in one region, and users will
 - Azure Traffic Manager
 
 #### There are 2 Resource Groups in different regions:
-- **East US:** This is primary region and acts as a point of communication unless unavailable
+- **East US:** This is primary region and acts as a point of communication unless it becomes unavailable due to any disaster or outage.
 - **West Europe:** This region acts as a secondary region and will be automatically Up & Running during outage in primary region.
 ---
 
@@ -49,9 +49,9 @@ After installing Terraform you need to configure the backend to store terraform 
 https://github.com/aliarslangit/terraform-azure-high-availability-project/blob/main/providers.tf
 ```python
   backend "azurerm" {
-    resource_group_name  = "rg-terraform-github-actions-state"
-    storage_account_name = "terraformgithubactions"
-    container_name       = "tfstate"
+    resource_group_name  = "{resource group name}"
+    storage_account_name = "{storage account name}"
+    container_name       = "{containername}"
     key                  = "terraform.tfstate"
     use_oidc             = true
   }
