@@ -1,5 +1,6 @@
 
-  backend "azurerm" {
+terraform {
+backend "azurerm" {
 
     # Provide details for the storage account to store state file
     resource_group_name  = "rg-terraform"
@@ -7,8 +8,8 @@
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
     use_oidc             = true
-  }
-
+}
+}
 
 provider "azurerm" {
   
@@ -20,4 +21,3 @@ provider "azurerm" {
 
   features {}
 }
-
